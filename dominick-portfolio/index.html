@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dominick | Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="assets/images/Dommy.webp" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="floating-header">
+      <div class="container">
+        <div class="logo">
+          <img src="assets/images/Dommy.png" alt="Dominick Logo" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </nav>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+    </header>
+
+    <button id="backToTop" title="Go to top">↑</button>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+      <div class="container">
+        <h1>
+          <span class="big">Hi, I'm Dominick</span><br />
+          Your Premium Website Developer
+        </h1>
+        <p>I build modern, clean, and functional websites.</p>
+        <a href="#projects" class="btn">See My Work ↓</a>
+
+        <!-- Hero Image -->
+        <img
+          class="hero-img"
+          src="assets/images/Hero image.webp"
+          alt="Hero Visual"
+          class="hero-image reveal"
+        />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <!-- Tiny subtitle -->
+        <p class="subtitle">About Us</p>
+
+        <!-- Main heading -->
+        <h2>Welcome to the RealTech World</h2>
+
+        <!-- Cards container -->
+        <div class="about-cards">
+          <div class="card">
+            <h3>Front-End Development</h3>
+            <p>
+              Building sleek, responsive, and modern websites with HTML, CSS,
+              and JS.
+            </p>
+          </div>
+          <div class="card">
+            <h3>UI/UX Design</h3>
+            <p>
+              Creating intuitive and visually stunning interfaces that users
+              love.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Performance Optimization</h3>
+            <p>
+              Ensuring fast load times and smooth experience across all devices.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+      <div class="container">
+        <h2>My Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>HTML</h3>
+            <p>
+              Semantic structure, clean code, and accessibility focused. I
+              create organized and maintainable markup for all projects.
+            </p>
+          </div>
+          <div class="skill-card">
+            <h3>CSS</h3>
+            <p>
+              Modern layouts, animations, and responsive designs. I make
+              websites visually stunning and interactive.
+            </p>
+          </div>
+          <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>
+              Dynamic functionality, DOM manipulation, and user interactions. I
+              bring static designs to life seamlessly.
+            </p>
+          </div>
+          <div class="skill-card">
+            <h3>Responsive Design</h3>
+            <p>
+              Mobile-first approach, media queries, and fluid layouts. Ensuring
+              every device gets a perfect experience.
+            </p>
+          </div>
+          <div class="skill-card">
+            <h3>Git & GitHub</h3>
+            <p>
+              Version control, collaboration, and project management. I keep
+              code organized and team-friendly.
+            </p>
+          </div>
+          <div class="skill-card">
+            <h3>High Speed</h3>
+            <p>
+              I create websites that load lightning fast, optimized for
+              performance and smooth user experience across all devices. No
+              waiting, just instant interactions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <p>Coming soon... with screenshots, links & code.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <!-- Heading -->
+        <div class="contact-header">
+          <p class="subtitle">Contact Us</p>
+          <h2>Get in Touch</h2>
+        </div>
+
+        <div class="contact-content">
+          <!-- Contact Details (Left) -->
+          <div class="contact-details">
+            <div class="detail-box">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h3>Phone</h3>
+                <p>+255 123 456 789</p>
+              </div>
+            </div>
+            <div class="detail-box">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <p>dominicisaya6@gmail.com</p>
+              </div>
+            </div>
+            <div class="detail-box">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3>Location</h3>
+                <p>Dar es Salaam, Tanzania</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form (Right) -->
+          <div class="contact-form">
+            <form>
+              <div class="form-row">
+                <input
+                  type="text"
+                  name="first_name"
+                  placeholder="First Name"
+                  required
+                />
+                <input
+                  type="text"
+                  name="last_name"
+                  placeholder="Last Name"
+                  required
+                />
+              </div>
+              <div class="form-row">
+                <input type="email" name="email" placeholder="Email" required />
+                <input type="tel" name="phone" placeholder="Phone" />
+              </div>
+              <select name="plan" required>
+                <option value="">Select Plan</option>
+                <option value="single-page">Single Page</option>
+                <option value="classic">Classic</option>
+                <option value="ecommerce">E-commerce</option>
+              </select>
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Google Map -->
+        <div class="contact-map">
+          <!-- Embed your Google Map iframe here -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.868839752208!2d39.23321881454439!3d-6.792354695030627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4b1234567890%3A0xabcdef1234567890!2sDar%20es%20Salaam!5e0!3m2!1sen!2stz!4v1690000000000!5m2!1sen!2stz"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <p>© 2025 Dominick | Powered by ChatGPT</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
